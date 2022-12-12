@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TenX</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/ae6372f975.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <!-- menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="myHeader">
+        <div class="container">
+            <img src="img/tenx-logo.JPG" alt="">
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <span style="    display: inline-flex; margin-right: 386px;">
+                        <li class="nav-item"><a class="nav-link" style="
+                        margin-right: 16px;
+                    " href="converttohtml.html">Find Job</a></li>
+                        <li class="nav-item"><a class="nav-link" style="
+                        margin-right: 16px;
+                    " href="converttohtml.html">Browse Jobs </a></li>
+                    </span>
+                    <li class="nav-item"><a class="nav-link" style="
+                        margin-right: 16px;
+                    " href="converttohtml.html">Convert to HTML</a></li>
+                    <!-- <li class="nav-item job-support-btn"><a class="nav-link" href="#"> Job Support / Training</a></li> -->
+
+
+                    <button type="button" class="nav-item job-support-btn" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Job Support / Training
+                    </button>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: black;">Please
+                                        Select Your Prefered Country</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <!-- <div class="modal-body">
+                              ...
+                            </div> -->
+                                <div class="modal-footer">
+
+                                    <li class="nav-item"><a class="modal-btn" href="india.html">India</a>
+                                    </li>
+                                    <li class="nav-item"><a class="modal-btn" href="unitedstates.html">US</a>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- <li class="nav-item"><a class="nav-link" href="unitedstates.html">United States</a></li>
+                    <li class="nav-item"><a class="nav-link " href="india.html">India</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-dark nav-menu-two">
+        <div class="container">
+
+            <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+            <ul class="navbar-nav mb-lg-0 nav-menu2">
+                <li class="nav-item"><a class="nav-link" href="#">Find Job</a></li>
+                <li class="nav-item"><a class="nav-link" href="#!">Hire Freelancer</a></li>
+                <li class="nav-item"><a class="nav-link" href="#!">Get Ideas</a></li>
+                <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#!">Resources</a></li>
+
+            </ul>
+            <!-- </div> -->
+        </div>
+    </nav>
+
+    <div class="navbar-expand-lg navbar-dark  tab-nav">
+        <div class="container">
+            <ul class="nav nav-tabs" id="myTab">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active" data-bs-toggle="tab">Find Jobs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#profile" class="nav-link" data-bs-toggle="tab">Hire Freelancer</a>
+                </li>
+
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="home">
+                    <div class="header-heading">
+                        <h1 class="display-5 fw-bolder  mb-2">Present your business <br> in a whole new way
+                        </h1>
+                        <p class="lead  mb-4">Quickly design and customize responsive mobile-first sites
+                            <br>
+                            with Bootstrap, the world’s most popular front-end open source toolkit!
+                        </p>
+                        <div>
+                            <span class="breadcrumbs">TenX Minds > Jobs</span>
+                            <div class="input-group search">
+                                <i class="fa-solid fa-magnifying-glass search-icon "></i>
+                                <input class="form-control" type="text" placeholder="Enter search term...">
+                                <i class="fa-solid fa-location-dot location-icon "></i>
+                                <input class="form-control" type="text" placeholder="Enter search term..."
+                                    aria-label="Enter search term..." aria-describedby="button-search">
+                                <button class="btn btn-primary">Search</button>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show" id="profile">
+                    <div class="header-heading">
+                        <h1 class="display-5 fw-bolder  mb-2">How can freelancers help <br> your business?
+                        </h1>
+                        <p class="lead  mb-4">The possibilities are endless. We have expert <br> freelancers who
+                            work in every technical, professional, <br> and creative field imaginable.
+                        </p>
+                        <!-- <div>
+                                <span class="breadcrumbs">TenX Minds > Jobs</span>
+                                <div class="input-group search">
+                                    <i class="fa-solid fa-magnifying-glass search-icon "></i>
+                                    <input class="form-control" type="text" placeholder="Enter search term...">
+                                    <i class="fa-solid fa-location-dot location-icon "></i>
+                                    <input class="form-control" type="text" placeholder="Enter search term..."
+                                        aria-label="Enter search term..." aria-describedby="button-search">
+                                    <button class="btn btn-primary">Search</button>
+                                </div>
+
+
+                            </div> -->
+                        <li class="nav-item job-support-btn"><a class="nav-link" href="#"> Post a Project</a></li>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="compan-icons">
+        <div class="containter usedBy">
+            <div class="row ">
+                <div class="col-md-1">
+                    <span> Used By</span>
+                </div>
+                <div class="col-md-1">
+                    <img style="width: 75px;" src="img/amazon_logo2.svg" alt="">
+                </div>
+                <div class="col-md-1">
+                    <img style="width: 75px;" src="img/airbus-logo2.svg" alt="">
+                </div>
+                <div class="col-md-1">
+                    <img style="width: 75px;" src="img/deloitte-logo2.svg" alt="">
+                </div>
+                <div class="col-md-1">
+                    <img style="width: 90px;" src="img/facebook-corporate-logo2.svg" alt="">
+                </div>
+                <div class="col-md-1">
+                    <img style="width: 57px;" src="img/fujitsu-logo.svg" alt="">
+                </div>
+                <div class="col-md-1">
+                    <img style="width: 70px;" src="img/google-logo.svg" alt="">
+                </div>
+                <div class="col-md-1">
+                    <img style="width: 45px;" src="img/ibm-logo2.svg" alt="">
+                </div>
+                <div class="col-md-1">
+                    <img style="width: 45px;" src="img/nasa-logo3.svg" alt="">
+                </div>
+                <div class="col-md-1">
+                    <img style="width: 75px;" src="img/telstra-logo.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="        height: 1px;
+    width: 1107px;
+    margin-left: 116px;">
+    <!-- header -->
+    <!-- <header class="bg-color py-5">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-6">
+                    <div class="text-center my-5">
+                        <h1 class="display-5 fw-bolder text-black mb-2">Present your business in a whole new way</h1>
+                        <p class="lead text-black -50 mb-4">Quickly design and customize responsive mobile-first sites
+                            with Bootstrap, the world’s most popular front-end open source toolkit!</p>
+                        <div class="card-body">
+                            <div class="input-group">
+                                <input class="form-control" type="text" placeholder="Enter search term..."
+                                    aria-label="Enter search term..." aria-describedby="button-search">
+                                <button class="btn btn-dark" id="button-search" type="button">Go!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> -->
+
+    <div class="container cat-list ">
+        <h2>Get work done in over 1800 different categories</h2>
+        <div class="row category-row">
+
+            <div class="col-3 category">
+                <i class="fa-solid fa-desktop"></i> <span class="span-text"> Web Design </span>
+            </div>
+            <div class="col-3 category">
+                <i class="fa-solid fa-image"></i> <span class="span-text"> Photoshop </span>
+            </div>
+            <div class="col-3 category">
+                <i class="fa-sharp fa-solid fa-chart-simple"></i> <span class="span-text"> Excel </span>
+            </div>
+            <div class="col-3 category">
+                <i class="fa-brands fa-android"></i> <span class="span-text"> Android App </span>
+            </div>
+            <!-- <br><br> -->
+            <div class="col-3 category">
+                <i class="fa-brands fa-wordpress-simple"></i><span class="span-text"> WordPress </span>
+            </div>
+            <div class="col-3 category">
+                <i class="fa-sharp fa-solid fa-pen"></i><span class="span-text"> Graphic Design </span>
+            </div>
+            <div class="col-3 category">
+                <i class="fa-solid fa-globe"></i> <span class="span-text"> Internet Marketing </span>
+            </div>
+            <div class="col-3 category">
+                <i class="fa-solid fa-file-code"></i> <span class="span-text"> MySQL </span>
+            </div>
+            <!-- <br><br> -->
+            <div class="col-3 category">
+                <i class="fa-sharp fa-solid fa-cart-shopping"></i> <span class="span-text"> Ecommerce </span>
+            </div>
+            <div class="col-3 category">
+                <i class="fa-sharp fa-solid fa-code"></i> <span class="span-text"> HTML </span>
+            </div>
+            <div class="col-3 category">
+                <i class="fa-solid fa-circle-half-stroke"></i> <span class="span-text"> Banner Design </span>
+            </div>
+            <div class="col-3 category">
+                <i class="fa-regular fa-keyboard"></i> <span class="span-text"> Data Entry </span>
+            </div>
+            <!-- <br><br> -->
+            <div class="col-3 category">
+                <i class="fa-solid fa-star"></i> <span class="span-text"> Logo Design </span>
+            </div>
+            <div class="col-3 category">
+                <i class="fa-sharp fa-solid fa-code"></i> <span class="span-text"> CSS </span>
+            </div>
+            <div class="col-3 category">
+                <i class="fa-solid fa-file-code"></i> <span class="span-text"> Software Development </span>
+            </div>
+            <div class="col-3 category">
+                <i class="fa-brands fa-html5"></i> <span class="span-text"> HTML 5</span>
+            </div>
+            <!-- <br><br> -->
+            <div class="col-3 category">
+                <i class="fa-brands fa-square-js"></i> <span class="span-text"> JavaScript </span>
+            </div>
+            <div class="col-3 category">
+                <i class="fa-solid fa-desktop"></i> <span class="span-text"> JQuary </span>
+            </div>
+            <div class="col-3 category">
+                <i class="fa-solid fa-desktop"></i> <span class="span-text"> Software Architecture </span>
+            </div>
+            <div class="col-3 category">
+                <i class="fa-sharp fa-solid fa-code"></i> <span class="span-text"> Angular</span>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="bg-dark py-4 mt-auto">
+        <div class="container ">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto footer-items">
+                    <ul>
+                        <li>
+                            <img src="img/tenx-logo-white.gif" alt="">
+                        </li>
+                        <li>
+                            <!-- <i class="fa-light fa-square-question footer-icon"></i> -->
+                            <i class="fa-solid fa-location-dot footer-icon "></i>
+                            <i class="fa fa-question-circle" aria-hidden="true"></i>
+                            <i class="fa-solid fa-square-question"></i>
+                            <span>Help & Support</span>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-auto footer-items">
+                    <p> <strong> 63,329,881</strong></p>
+                    <p>Total Jobs Posted</p>
+                </div>
+
+                <div class="col-auto footer-items">
+                    <p>TenX ® Copyright © 2022 </p>
+                </div>
+                <div class="col-auto footer-items">
+                    <p> <strong> 63,329,881</strong></p>
+                    <p>Registered Users</p>
+                </div>
+                <div class="col-auto footer-items">
+                    <p> <strong> 63,329,881</strong></p>
+                    <p>Total Jobs Posted</p>
+                </div>
+
+                <div class="col-auto footer-items">
+                    <p>TenX ® Copyright © 2022 </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+    <footer class="bg-dark py-4 mt-auto">
+        <div class="container ">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto footerCenter">
+                    <p> <strong> 63,329,881</strong></p>
+                    <p>Registered Users</p>
+                </div>
+                <div class="col-auto footerCenter">
+                    <p> <strong> 63,329,881</strong></p>
+                    <p>Total Jobs Posted</p>
+                </div>
+
+                <div class="col-auto footerCenter">
+                    <p>TenX ® Copyright © 2022 </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
